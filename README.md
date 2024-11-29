@@ -6,6 +6,12 @@ This project implements a neural network for handwritten digit recognition using
 
 The goal of this project is to create a neural network model that can accurately predict digits (0-9) based on images of handwritten digits. The dataset used is the MNIST dataset, which consists of 28x28 grayscale images of handwritten digits.
 
+## Data
+The dataset used in this project is the MNIST dataset.
+You can access the dataset and more information about it 
+
+https://www.kaggle.com/code/wwsalmon/simple-mnist-nn-from-scratch-numpy-no-tf-keras
+
 ## Features
 - **Training**: The network is trained using gradient descent.
 - **Activation Functions**: ReLU for the hidden layer and softmax for the output layer.
@@ -21,3 +27,4 @@ You can install the required dependencies using `pip`:
 
 ```bash
 pip install -r requirements.txt
+
